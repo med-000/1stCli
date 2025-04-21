@@ -1,1 +1,1 @@
-alert("This page is very safety");
+alert("This page is very safe");
