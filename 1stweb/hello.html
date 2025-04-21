@@ -1,15 +1,33 @@
 <!DOCKTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>前田力樹のブログ</title>
+    <title>med's vlog</title>
     <link rel="stylesheet" href="hello.css">
+    <script type="text/javascpipt" src="hello.js"></script>
 </head>
-<img src = "image/nigaoe1.jpg" width = "400" height = "260">
-<h1>前田力樹</h1>
-<p>東京電機大学2回生</p>
-    <ul>
-        <li>システムデザイン工学部</li>
-        <li>情報システム工学科</li>
-    </ul>
+
+<body>
+    <input id ="input">
+    <button onclick="clicked();">buttom</button>
+    <div id="output"></div>
+    <img src="image/youngman.png" width="400" height="260">
+    
+    <script>
+        console.log("Hello,Javascript");
+        function clicked() {
+            const input = document.getElementById("input");
+            const output = document.getElementById("output");
+            output.innerHTML = `<b>${input.value}</b>`;
+        }
+    </script>
+    <h1>med</h1>
+    <p>TDU</p>
+        <ul>
+            <li>System Engineering</li>
+            <li>Information System Engineering</li>
+        </ul>
+</body>
+
 </html>

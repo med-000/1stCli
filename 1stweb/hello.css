@@ -1,4 +1,9 @@
 h1{
-    color:#174A5C
+    color:#337079;
     font-size: 40px;
+    font-family: serif;
+}
+
+body {
+    background-color: #e8e8e8;
 }
